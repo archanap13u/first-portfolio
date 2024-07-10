@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+        font-family: "Bona Nova SC", serif;
+        font-weight: 400;
+     
+      
+}
+.parent{
+    margin:0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    height: 160px;
+    width: 160;
+}
+.lnk{
+    margin:20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    transition: 1s;
+}
+.lnk:hover{
+    color: red;
+    font-size: 35px;
+}
+#sec{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.p{
+    text-align: justify;
+    font-size: 20px;
+
+}
+.b1{
+    margin:20px;
+}
+.h{
+    margin :20px 0px;
+}
+.mimg{
+    position: relative;
+    bottom: 100px;
+}
+.img2{
+    position: absolute;
+    right:300px;
+    
+}
+.img1{
+    height:200px;
+    width:100px;
+
+padding-top: 20px;;
+}
+<div class="u-img"> <img src="https://www.starbucks.in/assets/icon/Bestseller.webp"></div>
+        <div class="u-img"><img src="https://www.starbucks.in/assets/icon/Bestseller.webp"></div>
+        <div class="u-img"><img src=""></div>
+        <div class="u-img"><img src=""></div>
+        <div class="u-img"><img src=""></div>
+        <div class="u-img"><img src=""></div>
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <img src="./images/logo2.png" class="img">
+        <div>
+            <a href="" class="lnk">Home</a>
+            <a href="" class="lnk">about </a>
+        </div>
+    </div>
+    <section id="sec">
+        <div class="b1">
+            <h1 class="h">hi iam <span style="color:red;"> archana</span></h1><br>
+            <p class="p">We and our 833 partners store and/or access information on a device, such as unique IDs in cookies to process personal data. You may accept or manage your choices by clicking below or at a
+                ny time in the privacy policy page. These choices will be signaled to our partners and will not affect browsing
+            </p>
+        </div>
+        <div class="mimg">
+            <img src="./images/logo2.png" class="img1">
+            <img src="./images/logo1.png" class="img2">
+
+        </div>
+    </section>
+</body>
+</html>

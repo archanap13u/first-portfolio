@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #c div{
+            color:green;
+        }
+        #c>div{
+            border: 1px solid;
+        }
+        #p+p{
+            background-color: red;
+        }
+        #p~p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="p">
+        <div id="c">
+        <div>
+            child
+
+        <div>
+            grand child
+        </div>
+        </div>
+        </div>
+    </div>
+    <p>hi</p>
+    <p>hello</p>
+</body>
+</html>
